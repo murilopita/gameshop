@@ -1,0 +1,18 @@
+:root {
+    --bg-primary: #181818;
+    --bg-secondary: #282828;
+    --text-primary: #ffffff;
+    --text-secondary: #656565;
+    --secondary-color: #4671C6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-primary);
+}

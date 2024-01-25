@@ -1,0 +1,82 @@
+.hero-section{
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.hero-card{
+    background-color: #ffffff;
+    margin: 90px 40px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.hero-card .hero-image{
+    width:700px;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.hero-content{
+    width: 100%;
+    padding: 0 32px;
+}
+
+.hero-content h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 52px 0 16px 0;
+}
+
+.hero-content p {
+    color: #656565;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.42;
+    margin-bottom: 14px;
+}
+
+.hero-content .console-tag{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #717171;
+}
+
+.console-tag img{
+    width: 13px;
+}
+.console-tag span{
+    font-size: 12px;
+}
+
+
+.hero-content .btn {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #F9A7A7;
+}
+
+.hero-content .btn:hover{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+@media (max-width: 1125px) {
+
+    .hero-card{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+
+    .hero-content {
+        width: 700px;
+    }
+}    
