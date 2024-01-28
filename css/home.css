@@ -101,5 +101,205 @@
         margin-bottom: 30px;
     }
 
+}
 
+/* Important Information Section */
+
+.info-section{
+    background-color: #282828;
+    margin-bottom: 100px;
+}
+
+.info-area {
+    max-width: 1280px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media (max-width: 1080px) {
+    .info-area {
+        height: fit-content;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 50px 10px;
+    }
+}
+
+.info-item{
+    max-width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.info h3 {
+    font-size: 16px;
+    font-style: normal;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+
+.info span {
+    font-size: 12px;
+    font-style: italic;
+    color: #ffffff;
+
+}
+
+/* About Us Section */
+
+.about-us{
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.about-us-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0 10px;
+    margin-bottom: 100px;
+}
+
+.about-us-content img {
+    max-width: 436px;
+    padding: 0 10px;
+}
+
+.about-us-content p{
+    max-width: 756px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.about-us-content span {
+    color: #4671C6;
+}
+
+@media (max-width: 500px) {
+
+    .about-us-content img{
+        max-width: 100%;
+    } 
+
+    .about-us-content p{
+        max-width: 100%;
+    }
+}
+
+
+/* Categories Section */
+
+.categories-section{
+    max-width: 1280px;
+    margin: 0 auto 150px auto;
+    padding: 0 10px;
+}
+
+.nav-category{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.nav-category h3 {
+    color: var(--text-primary);
+    text-transform: uppercase;
+    font-size: 24px;
+    border-bottom: 2px solid #4671C6;
+
+}
+
+.btn2 {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px 16px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #4671C6;
+    background: rgba(70, 113, 198, 0.14);
+}
+
+.categories {
+    display: flex;
+    gap: 46px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.category-item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.category-item img {
+    max-width: 250px;
+    border-radius: 100%;
+}
+
+
+@media (max-width: 562px) {
+
+    .nav-category {
+        justify-content: center;
+    }
+
+    .nav-category a{
+        display: none;
+    }
+
+    .categories {
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .category-item img {
+        max-width: 200px;
+    }
+}
+
+
+/* Games Section */
+
+.games-section{
+    max-width: 1280px;
+    margin: 0 auto 150px auto;
+    padding: 0 10px;
+}
+
+.game-card{
+    max-width:286px;
+    background-color: #ffffff;
+}
+
+.game-card img {
+    max-width: 246px;
 }
