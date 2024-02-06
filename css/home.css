@@ -295,11 +295,52 @@
     padding: 0 10px;
 }
 
-.game-card{
-    max-width:286px;
-    background-color: #ffffff;
+.games-list {
+    display: flex;
 }
 
-.game-card img {
-    max-width: 246px;
+.game-card {
+    width: 260px;
+    height: auto;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.game-card > img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.info-container {
+    margin-top: 16px;
+}
+
+.info-container h3 {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.console-tag {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00349B;
 }
